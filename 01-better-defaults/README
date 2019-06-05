@@ -17,3 +17,6 @@ That will set the defaults so that scripts fail faster.
 -x sets it to print out every command that is executed.  This is great in some
    cases, but there are also definitely times when you don't want to set -x.
 -o pipefail sets it to fail when any command in a pipeline fails
+
+For more on this subject, check out
+http://redsymbol.net/articles/unofficial-bash-strict-mode/

@@ -8,3 +8,6 @@ command line.  Because Bash can be less intuitive than other programming
 languages, this workshop won't assume much prior knowledge. We'll go through
 language constructs like control flow, parameter passing, and scope as well as
 standards, style, and testing.
+
+Each directory will have a README and some scripts.  Please read through
+everything -- don't just execute the files, or you'll miss the comments.
