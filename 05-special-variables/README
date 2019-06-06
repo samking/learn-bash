@@ -8,3 +8,6 @@ try putting some of it together!  Make a function that computes the nth
 fibonacci number recursively.  If you haven't done that in a while, there's a
 sample Python implementation in this directory that you can model your Bash
 script after.
+If you're having a hard time returning values, you probably want to use "echo"
+rather than "return".  It won't print to the screen if you're assigning the
+result to a variable.
