@@ -1,0 +1,12 @@
+You've seen how to get positional command line arguments using things like $1,
+but it would be annoying to make a script that had named arguments using that.
+
+For a few different solutions to command line argument parsing in bash, read
+https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
+
+Tweak your fibonacci script so that it takes two named parameters that can be
+passed in any order.  One parameter should be n.  The other parameter will tell
+the script whether to print all fibonacci numbers <= n or whether to only print
+fib(n).
+
+Try implementing this using getopts as well as at least one other style.
