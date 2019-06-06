@@ -18,7 +18,7 @@ global_variables
 # but that isn't quite how it works here.
 local_variables() {
     local num=${num:-0}
-    if [[ ${num} < 5 ]] ; then
+    if [[ ${num} -lt 5 ]] ; then
         # $(( ... )) lets you do math.  You can also use executables like expr
         # or bc if you prefer.
         num=$((num + 1))
