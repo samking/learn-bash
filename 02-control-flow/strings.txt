@@ -1,0 +1,6 @@
+here
+are
+some
+strings
+to
+print
