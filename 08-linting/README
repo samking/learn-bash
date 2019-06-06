@@ -1,0 +1,12 @@
+Having a linter can enforce some stylistic constraints and help catch a few
+common types of bugs.  For bash, the most common linter is shellcheck:
+https://www.shellcheck.net/
+
+1.  Try running shellcheck on some of the scripts in these exercises.  What are
+    some best practices that the example code violated?
+
+2.  Get shellcheck working in your editor of choice
+
+3.  Get shellcheck integrated as a linter for your company's bash code.  Try
+    running some bash scripts through it -- are there any subtle errors that it
+    was able to find?
