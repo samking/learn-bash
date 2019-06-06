@@ -32,8 +32,12 @@ fi
 if [[ 'hello world' =~ h.*d ]] ; then
     echo "Our regular expression test worked"
 fi
-if [[ 1 < 2 ]] ; then
+if [[ 1 -lt 2 ]] ; then
     echo "Math works"
+fi
+if [[ 11 < 2 ]] ; then
+    echo "< is a string comparison character, so 11 < 2 because '11' is "
+    echo "lexically before '2'"
 fi
 if [[ -e /bin ]] ; then
     echo "/bin is a directory"
