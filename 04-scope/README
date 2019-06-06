@@ -1,0 +1,12 @@
+Normally, local variables just do what you want them to, but the local_variables
+function demonstrates that they don't always work like you would expect from
+other languages.
+
+1.  What does the first line in the function do?
+        local num=${num:-0}
+    In particular, how does this function work without any explicit parameter
+    passing?
+
+2.  What does this line do?
+        num=$((num + 1))
+    In particular, which copy of "num" does it overwrite?
