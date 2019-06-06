@@ -1,0 +1,14 @@
+Any sufficiently complex code probably needs unit tests.  Ideally, before a file
+of Bash code got complex enough to merit tests, it would get ported over to
+another language, but that doesn't always happen.
+
+Check out this article for a comparison of a few different Bash testing
+frameworks:
+https://medium.com/wemake-services/testing-bash-applications-85512e7fe2de
+(or just check out bats as a good default: https://github.com/sstephenson/bats)
+
+Write a unit test for your fibonacci function using the framework of your
+choice.
+
+Is any of the bash code in your company complex enough to merit unit tests?  If
+so, try writing some!
