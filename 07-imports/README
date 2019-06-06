@@ -1,0 +1,10 @@
+In bash, you can use `source` to import another bash script.  When sourcing a
+script, you'll need to keep in mind what the working directory is if you want
+the script to be executable from anywhere.
+
+One common solution to that is to do imports relative to the bash script and to
+get the bash script's directory using something like this:
+https://stackoverflow.com/questions/59895/get-the-source-directory-of-a-bash-script-from-within-the-script-itself
+
+Make a new script that sources your fibonacci script from a different directory.
+Then, run the fibonacci function from the importing script.
