@@ -8,6 +8,10 @@ echo "whatever directory is passed in."
 # ${foo:-bar} tries to get the variable foo, but defaults to bar if foo is
 # undefined.  In this case, ${1:-} tries to get the parameter but defaults to
 # the empty string.
+# You can learn more about parameter expansion at
+# https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+# There are lots of useful things that can do with parameter expansion like
+# simple string manipulations.
 # We need to get default values because we use set -u which will error out on
 # undefined variables.
 DIR_TO_LIST=${1:-}
