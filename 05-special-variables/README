@@ -1,0 +1,10 @@
+What is the difference between $*, $@, "$*", and "$@" ?  Hint: try changing the
+for loop at the end, and try calling the script with paramaters that include
+spaces.
+
+Now that you know about functions, loops, math, variable scope, and some special
+parameters that can be used both in functions and in scripts as a whole, let's
+try putting some of it together!  Make a function that computes the nth
+fibonacci number recursively.  If you haven't done that in a while, there's a
+sample Python implementation in this directory that you can model your Bash
+script after.
